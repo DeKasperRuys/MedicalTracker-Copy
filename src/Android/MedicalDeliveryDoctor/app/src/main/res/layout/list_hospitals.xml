@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundColor">
+
+
+
+    <LinearLayout
+        android:id="@+id/lay_hosp"
+        android:background="@drawable/round_list"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="10dp">
+
+        <ImageView
+            android:id="@+id/list_icons"
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:gravity="start|center"
+            android:src="@mipmap/ic_hospital_foreground" />
+
+        <TextView
+            android:id="@+id/list_hospitalname"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:gravity="start|center"
+            android:text="12/01/2018"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/list_hospitalAddress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start|center"
+            android:text="Antwerp"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

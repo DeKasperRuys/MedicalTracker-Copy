@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:orientation="vertical"
+    android:background="@color/colorBackgroundColor"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="New delivery"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/newdel_hospName"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="100dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_height="match_parent"
+            android:textColor="@color/colorAccent"
+            android:gravity="center"
+            android:text="Medicine: " />
+
+        <Button
+            android:id="@+id/newdel_btnMedicine"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_button"
+            android:textColor="@color/colorWhite"
+            android:text="Choose a medicine"
+            android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="100dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_height="match_parent"
+            android:textColor="@color/colorAccent"
+            android:gravity="center"
+            android:text="Amount: " />
+
+        <EditText
+            android:id="@+id/newdel_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:backgroundTint="@color/colorAccent"
+            android:textCursorDrawable="@color/colorAccent"
+            android:textColor="@color/colorAccent"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/newdel_btnCreate"
+        android:layout_width="200dp"
+        android:textColor="@color/colorWhite"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/round_button"
+        android:text="Create order"
+        android:layout_marginBottom="15dp"
+        />
+</LinearLayout>

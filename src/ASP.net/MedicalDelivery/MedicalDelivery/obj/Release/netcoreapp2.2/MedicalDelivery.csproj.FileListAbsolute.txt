@@ -1,0 +1,16 @@
+D:\Github\iot19-md1\src\ASP.net\MedicalDelivery\MedicalDelivery\bin\Release\netcoreapp2.2\MedicalDelivery.deps.json
+D:\Github\iot19-md1\src\ASP.net\MedicalDelivery\MedicalDelivery\bin\Release\netcoreapp2.2\MedicalDelivery.runtimeconfig.json
+D:\Github\iot19-md1\src\ASP.net\MedicalDelivery\MedicalDelivery\bin\Release\netcoreapp2.2\MedicalDelivery.runtimeconfig.dev.json
+D:\Github\iot19-md1\src\ASP.net\MedicalDelivery\MedicalDelivery\bin\Release\netcoreapp2.2\MedicalDelivery.dll
+D:\Github\iot19-md1\src\ASP.net\MedicalDelivery\MedicalDelivery\bin\Release\netcoreapp2.2\MedicalDelivery.pdb
+D:\Github\iot19-md1\src\ASP.net\MedicalDelivery\MedicalDelivery\obj\Release\netcoreapp2.2\MedicalDelivery.csprojAssemblyReference.cache
+D:\Github\iot19-md1\src\ASP.net\MedicalDelivery\MedicalDelivery\obj\Release\netcoreapp2.2\MedicalDelivery.RazorAssemblyInfo.cache
+D:\Github\iot19-md1\src\ASP.net\MedicalDelivery\MedicalDelivery\obj\Release\netcoreapp2.2\MedicalDelivery.RazorAssemblyInfo.cs
+D:\Github\iot19-md1\src\ASP.net\MedicalDelivery\MedicalDelivery\obj\Release\netcoreapp2.2\MedicalDelivery.AssemblyInfoInputs.cache
+D:\Github\iot19-md1\src\ASP.net\MedicalDelivery\MedicalDelivery\obj\Release\netcoreapp2.2\MedicalDelivery.AssemblyInfo.cs
+D:\Github\iot19-md1\src\ASP.net\MedicalDelivery\MedicalDelivery\obj\Release\netcoreapp2.2\MedicalDelivery.RazorTargetAssemblyInfo.cache
+D:\Github\iot19-md1\src\ASP.net\MedicalDelivery\MedicalDelivery\obj\Release\netcoreapp2.2\MedicalDelivery.dll
+D:\Github\iot19-md1\src\ASP.net\MedicalDelivery\MedicalDelivery\obj\Release\netcoreapp2.2\MedicalDelivery.pdb
+D:\Github\iot19-md1\src\ASP.net\MedicalDelivery\MedicalDelivery\bin\Release\netcoreapp2.2\appsettings.Development.json
+D:\Github\iot19-md1\src\ASP.net\MedicalDelivery\MedicalDelivery\bin\Release\netcoreapp2.2\appsettings.json
+D:\Github\iot19-md1\src\ASP.net\MedicalDelivery\MedicalDelivery\bin\Release\netcoreapp2.2\Properties\launchSettings.json

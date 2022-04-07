@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundColor">
+
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/searchhospital"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:hint="Search your hospital"
+                android:textColorHint="@color/colorAccent"></EditText>
+
+            <Button
+                android:id="@+id/hospsel_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add new"
+                android:background="@drawable/round_button"/>
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/hospital_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:divider="@null"
+            android:dividerHeight="10dp">
+
+        </ListView>
+    </LinearLayout>
+</android.support.v4.widget.DrawerLayout>

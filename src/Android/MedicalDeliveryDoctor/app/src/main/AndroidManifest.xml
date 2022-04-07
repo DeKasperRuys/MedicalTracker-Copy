@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.carlv.medicaldeliverydoctor">
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_status"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_status_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".Activities.Hospital.HospitalSelectActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"
+
+                android:noHistory="true"/>
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+        </activity>
+        <activity android:name=".Activities.Hospital.HospitalActivity" />
+        <activity android:name=".Activities.Hospital.NewHospitalActivity"
+            android:noHistory="true">
+        </activity>
+        <activity android:name=".Activities.Hospital.EditHospitalActivity"
+            android:noHistory="true">
+        </activity>
+        <activity android:name=".Activities.Medicine.MedicineActivity">
+        </activity>
+        <activity android:name=".Activities.Delivery.DeliveryDetailActivity"
+            android:noHistory="true">
+        </activity>
+        <activity android:name=".Activities.Medicine.NewMedicineActivity"
+            android:noHistory="true">
+
+    </activity>
+        <activity android:name=".Activities.Medicine.EditMedicineActivity"
+            android:noHistory="true">
+    </activity>
+    <activity android:name=".Activities.Hospital.PinHospitalActivity"
+        android:noHistory="true">
+    </activity>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+    </application>
+
+</manifest>

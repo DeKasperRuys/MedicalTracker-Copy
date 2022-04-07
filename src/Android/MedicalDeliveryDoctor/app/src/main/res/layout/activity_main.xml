@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundColor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent"
+            android:hint="Search by medicine"
+            android:layout_marginHorizontal="40dp"
+            android:id="@+id/searchmedicine"
+            android:backgroundTint="@color/colorAccent"
+            android:textCursorDrawable="@color/colorAccent"></EditText>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:id="@+id/list_icons"
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:src="@mipmap/ic_medicine_foreground" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="#"
+                android:textColor="@color/colorAccent"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:gravity="start|center"
+                android:text="Medicine"
+                android:textColor="@color/colorAccent"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:gravity="start|center"
+                android:text="State"
+                android:textColor="@color/colorAccent"
+                android:textSize="15dp" />
+            <Button
+                android:id="@+id/del_btnNewDel"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="center"
+                android:text="+"
+                android:textAlignment="center"
+                android:background="@drawable/round_button"/>
+        </LinearLayout>
+
+
+        <ListView
+            android:id="@+id/delivery_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:divider="@null"
+            android:dividerHeight="10dp">
+
+        </ListView>
+    </LinearLayout>
+    <android.support.design.widget.NavigationView
+        android:id="@+id/menu"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        app:itemTextColor="@color/buttonTextColor"
+        android:layout_gravity="start"
+        android:background="@color/colorBackgroundColor"
+        app:menu="@menu/nav_menu"></android.support.design.widget.NavigationView>
+    <android.support.design.widget.NavigationView
+        android:id="@+id/filtermenu"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:background="@color/colorPrimary"
+        app:menu="@menu/filter_menu"></android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>

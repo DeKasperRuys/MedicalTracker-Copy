@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_deliveries"
+        android:title="My Deliveries" />
+    <item
+        android:id="@+id/nav_newDeliveries"
+        android:title="New Deliveries"
+        />
+    <item android:id="@+id/nav_medicine"
+        android:title="Medicine"/>
+    <item android:id="@+id/nav_hospitals"
+        android:title="Hospitals" />
+</menu>

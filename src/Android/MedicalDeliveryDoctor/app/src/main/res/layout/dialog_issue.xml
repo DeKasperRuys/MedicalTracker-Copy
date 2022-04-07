@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/round_rectangle">
+
+    <TextView
+        android:id="@+id/dia_issue_txtInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:textSize="14sp"
+        android:textColor="@color/buttonTextColor"/>
+
+    <Button
+        android:id="@+id/dia_issue_btnOkay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Mark as okay"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_button"/>
+
+    <Button
+        android:id="@+id/dia_issue_btnReorder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_weight="1"
+        android:text="Reorder medicine"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/round_button"/>
+
+    <Button
+        android:id="@+id/dia_issue_btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="25dp"
+        android:layout_weight="1"
+        android:text="Cancel order"
+        android:background="@drawable/round_button"/>
+</LinearLayout>

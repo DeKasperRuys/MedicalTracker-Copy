@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+ xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundColor">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp">
+        <EditText
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:hint="Search Rider"
+            android:textColorHint="@color/colorAccent"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/searchrider"></EditText>
+
+        <Button
+            android:id="@+id/riderselect_btnNew"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:background="@drawable/round_button"
+            android:text="New"></Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:background="@color/cardview_shadow_end_color"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp">
+
+        <ListView
+            android:id="@+id/list_riders"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:divider="@null"
+            android:dividerHeight="10dp">
+
+        </ListView>
+    </LinearLayout>
+</LinearLayout>

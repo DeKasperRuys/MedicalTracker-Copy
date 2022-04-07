@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAv6V/D96Jc0OZWN+d7wWPnwAAAAACAAAAAAAQZgAAAAEAACAAAAAY8As9EdNQbW78Mfjze2m3tObXtaeYcsz8Q4S1kF+U2AAAAAAOgAAAAAIAACAAAABDKp8awtHMLANN1uKO9HKeV4b/3+DyHqJsdpLtPgiBEIAAAACIbNZ7Kqrgpl+9htqExom4FV1ZY0byQrr+eW0z0y+lF+WCHlzaxnQZCezbcbejyE5mrbiLC11wawuBsk2b5iIWD9ety9kZGN/u699a+C9d6nPjOSluwPY2mAeoOk73BmVa2ruf1u8Nrm3iAsYLLyumu7f8gvy0/8LPsewqo/v0FEAAAACiZDyCfL0rBhQMjadj4fhRd8U0GEow0Qp4Ks39J1Kumbwo7bpu0UfAgXiygTc+DQfKqGJ/88+c5joed13B2b12</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:medicaldelivery2019dbserver.database.windows.net,1433%3bInitial Catalog=MedicalDeliveryDb%3bUser Id=Carl%40medicaldelivery2019dbserver%3bPassword=Artesis123</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="MedicalDelivery.Helpers.LibraryContext">
+      <Value>Data Source=tcp:medicaldelivery2019dbserver.database.windows.net,1433%3bInitial Catalog=MedicalDeliveryDb%3bUser Id=Carl%40medicaldelivery2019dbserver%3bPassword=Artesis123</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

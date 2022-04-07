@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@color/colorBackgroundColor">
+
+
+
+    <LinearLayout
+        android:id="@+id/lay_delivery"
+        android:background="@drawable/round_list"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+        android:id="@+id/list_icons"
+        android:layout_width="56dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:src="@mipmap/ic_status_foreground" />
+
+        <TextView
+            android:id="@+id/list_del_id"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:gravity="start|center"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp"
+            android:layout_marginLeft="5dp"
+            android:text="2." />
+
+        <TextView
+            android:id="@+id/list_del_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="start|center"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp"
+            android:text="Dafalgan" />
+        <TextView
+            android:id="@+id/list_del_status"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:gravity="start|center"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp"
+            android:text="Underway" />
+
+
+    </LinearLayout>
+    <ImageButton
+        android:id="@+id/list_del_statusBtn"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/color_btn"
+        android:background="@null"
+        tools:src="@drawable/color_btn"></ImageButton>
+</LinearLayout>

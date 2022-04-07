@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/fnav_waiting"
+        android:title="Waiting"
+        app:actionViewClass="android.widget.CheckBox"
+        />
+    <item
+        android:id="@+id/fnav_underway"
+        android:title="Underway"
+        app:actionViewClass="android.widget.CheckBox"
+        />
+    <item
+        android:id="@+id/fnav_issue"
+        android:title="Issue"
+        app:actionViewClass="android.widget.CheckBox"
+        />
+    <item
+        android:id="@+id/fnav_delivered"
+        android:title="Delivered"
+        app:actionViewClass="android.widget.CheckBox"
+        />
+    <item
+        android:id="@+id/fnav_cancelled"
+        android:title="Cancelled"
+        app:actionViewClass="android.widget.CheckBox"
+        />
+</menu>
